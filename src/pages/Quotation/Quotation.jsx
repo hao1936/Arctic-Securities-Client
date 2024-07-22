@@ -4,6 +4,9 @@
  * @LastEditTime: 2024-07-22
  * Copyright (c) 2024 by zhanghao hao7741936@gmail.com, All Rights Reserved. 
  */
-.App {
-  text-align: center;
+import TabBar from '../../components/TabBar/TabBar'
+export default function Quotation () {
+  return (
+    <TabBar>Quotation</TabBar>
+  )
 }

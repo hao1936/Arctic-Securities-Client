@@ -1,15 +1,37 @@
-import React from 'react';
+/*
+ * @Author: zhanghao hao7741936@gmail.com
+ * @LastEditors: zhanghao hao7741936@gmail.com
+ * @LastEditTime: 2024-07-22
+ * Copyright (c) 2024 by zhanghao hao7741936@gmail.com, All Rights Reserved. 
+ */
+import axios from 'axios';
+import MockAdapter from 'axios-mock-adapter';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-// import reportWebVitals from './reportWebVitals';
-
+import './index.css';
+const mock = new MockAdapter(axios);
+mock.onAny().passThrough();
+if (process.env.NODE_ENV === 'development') {
+  // Mock.mock(/\.*/, 'use', function () {
+  //   return {
+  //     code: 0,
+  //     message: 'Mock data'
+  //   };
+  // });
+  if (process.env.NODE_ENV === 'development') {
+    require('./mock');
+  }
+}
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   // <React.StrictMode>
+  <BrowserRouter>
     <App />
+  </BrowserRouter>
+
   // </React.StrictMode>
 );
 

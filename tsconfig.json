@@ -1,3 +1,9 @@
+/*
+ * @Author: zhanghao hao7741936@gmail.com
+ * @LastEditors: zhanghao hao7741936@gmail.com
+ * @LastEditTime: 2024-07-22
+ * Copyright (c) 2024 by zhanghao hao7741936@gmail.com, All Rights Reserved. 
+ */
 {
   "compilerOptions": {
     "target": "es5",
@@ -10,7 +16,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
@@ -18,7 +24,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": [
     "src"
