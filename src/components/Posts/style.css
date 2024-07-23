@@ -1,0 +1,39 @@
+img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.author .pic {
+  margin-right: 12px;
+}
+
+.author-right {
+  text-align: left
+}
+
+.news-title {
+  text-align: left;
+  margin-top: 12px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.review-praise {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.14);
+}
+
+.review-praise span {
+  margin: 5px 10px 10px 0;
+}

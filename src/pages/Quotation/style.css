@@ -1,0 +1,101 @@
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  font-size: 24px;
+  margin-top: 10px
+}
+
+.right svg {
+  margin-right: 12px;
+}
+
+.adm-jumbo-tabs-header {
+  border-bottom: none;
+}
+
+.adm-jumbo-tabs-content {
+  width: 100vw;
+  padding: 0;
+}
+
+.line {
+  height: 6px;
+  background-color: rgba(128, 128, 128, 0.199);
+}
+
+.title {
+  position: fixed;
+  top: 120px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1)
+}
+
+.marketIndex {
+  padding-left: 16px;
+  padding-bottom: 12px;
+  overflow-x: auto;
+}
+
+.marketIndex p {
+  font-size: 14px;
+  padding: 1px 0;
+}
+
+.exchange-name {
+  font-size: 12px;
+  color: black;
+}
+
+.number {
+  color: green;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.stock-list {
+  height: calc(100vh - 175px);
+  width: 100vw;
+  overflow: auto !important;
+  text-align: left;
+}
+
+.adm-grid {
+  margin-bottom: 12px;
+}
+
+.focus-list {
+  padding-top: 30px;
+}
+
+.stock-name {
+  margin-left: 16px;
+  /* width: 20vw; */
+}
+
+.title {}
+
+.stock-name .market {
+  color: white;
+  background: rgba(255, 0, 0, 0.438);
+  margin-right: 8px;
+}
+
+.red-font {
+  color: rgba(255, 0, 0, 0.596);
+}
+
+.green-font {
+  color: rgba(0, 128, 0, 0.596);
+}
