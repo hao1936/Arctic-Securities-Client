@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react'
 import Posts from '../../components/Posts/Posts'
 import TabBar from '../../components/TabBar/TabBar'
 import { getNewsList } from './../../api/news'
+import './style.css'
 export default function Homepage () {
   const [newsList, setNewsList] = useState([])
   useEffect(() => {
@@ -24,7 +25,9 @@ export default function Homepage () {
     <div>
       <Tabs>
         <Tabs.Tab title='关注' key='fruits'>
-          <Posts newsList={newsList}></Posts>
+          <div className="home-container">
+            <Posts newsList={newsList}></Posts>
+          </div>
         </Tabs.Tab>
         <Tabs.Tab title='推荐' key='vegetables'>
           推荐

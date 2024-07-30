@@ -1,0 +1,53 @@
+.me {
+  height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 100px;
+}
+
+.me-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+  align-items: flex-start;
+  line-height: 20px;
+}
+
+.top-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: black;
+  font-weight: 600;
+
+}
+
+.top-left span {
+  margin-right: 8px;
+}
+
+.me svg {
+  width: 35px;
+  height: 35px;
+}
+
+.me .my-list {
+  margin: 0 16px;
+  padding: 0 12px;
+  text-align: left;
+  background-color: rgba(220, 220, 220, 0.205);
+  border-radius: 8px
+}
+
+.my-list .list-title {
+  color: rgba(0, 0, 0, 0.784);
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 12px;
+}
+
+.my-list .description {
+  color: rgba(128, 128, 128, 0.654);
+  font-size: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.051);
+}
