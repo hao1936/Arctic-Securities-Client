@@ -22,9 +22,9 @@ export default function SelectedStocks () {
     }
     getData()
   }, [])
-  function goDetail () {
+  function goDetail (item) {
     console.log('跳转详情页')
-    navigate('/stockDetails')
+    navigate('/stockDetails', { state: item })
   }
   return (
     <div className="stock-list">

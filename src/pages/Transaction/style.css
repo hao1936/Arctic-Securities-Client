@@ -1,0 +1,87 @@
+.trade-tabs {
+  width: 100%;
+  overflow-y: auto;
+  height: 90vh;
+  padding-bottom: 20px;
+}
+
+.title-card {
+  background-image: url('../../assects/money.png');
+  padding: 12px 16px;
+  margin: 12px 16px;
+  border-radius: 5px;
+}
+
+.title-card p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.trade ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.trade ul li {
+  flex: 0 0 25%;
+}
+
+.trade {
+  margin: 12px 16px;
+  padding: 8px 16px;
+  background-color: #f2f2f25f;
+  border-radius: 5px;
+}
+
+.trade li {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trade .red-bg {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0.695);
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.trade svg {
+  margin-top: 16px;
+  width: 30px;
+  height: 30px;
+}
+
+.menu-list {
+  margin: 16px;
+  background-color: #f2f2f25f;
+}
+
+.menu-list li {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list .left {
+  width: auto;
+  color: rgba(0, 0, 0, 0.788);
+  font-size: 18px;
+}
+
+.menu-list .right {
+  margin-top: 0
+}
+
+.menu-list .right {
+  color: rgba(128, 128, 128, 0.668);
+  font-size: 14px;
+}
